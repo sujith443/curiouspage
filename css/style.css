@@ -1,0 +1,13 @@
+nav-fixed{
+    background-color: black;
+}
+.first:hover{
+    background: yellow;
+}
+.second:hover{
+    background: tomato;
+}
+#front{
+    background:url("texture.jpg");
+    padding: 10%;
+}
