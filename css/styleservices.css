@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#content{
+    color: whitesmoke;  
+    text-align: center;
+    height: 43em;
+    padding-top: 3em;
+}
+#butn{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+#butn>li{
+    margin: 0 2em;
+    color: black;
+    background-color: white;
+    padding: 1.2em;
+    border-radius: 5%;
+    width: 15rem;
+}
+.waves-effect{
+    margin-top: 5%;
+    font-size: 0.7em;
+}
+
+.tabs .tab a:focus.active {
+    color:white;
+    /*Custom Text Color While Active*/
+    background-color:#1565c0 ;
+    /*Custom Background Color While Active*/
+  }
+  .tabs .tab a{
+    color:#000;
+    font-size: 1.3em;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color:#eee;
+    color:#000;
+} /*Text color on hover*/
+.tabs .indicator {
+    background-color:white;
+} /*Color of underline*/
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color:#1565c0 ;
+     color: white;
+}
+  
+.row{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+}
