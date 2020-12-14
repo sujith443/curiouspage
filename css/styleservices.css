@@ -2,12 +2,14 @@
     padding: 0;
     margin: 0;
 }
+/*main content*/
 #content{
     color: whitesmoke;  
     text-align: center;
     height: 43em;
     padding-top: 3em;
 }
+/*tabs present in main content*/
 #butn{
     margin-top: 6%;
     display: flex;
@@ -22,9 +24,44 @@
     border-radius: 5%;
     width: 15rem;
 }
+/*buttons present in main content*/
 .waves-effect{
     margin-top: 5%;
     font-size: 0.7em;
+}
+
+/* About web section*/
+.inner-card{
+    width: 600px; 
+    text-align: justify;
+     line-height: 2;
+    padding: 1.1em;
+}
+.inner-image{
+    margin-top: 3%;
+}
+#aboutweb{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.5em;
+}
+
+#butn2,#last-card,#pricemodal{
+    display: flex;
+    justify-content: center;
+}
+
+#butn2>li,#last-card>li{
+    margin: 1.4em 2em;
+    color: black;
+    background-color: white;
+    padding: 1.2em;
+    border-radius: 5%;
+    width: 15rem;
+    text-align: center;
+}
+#pricemodal>div,#pricemodal>img{
+    margin: 1.2em 5em;
 }
 
 .tabs .tab a:focus.active {
@@ -49,8 +86,7 @@
     background-color:#1565c0 ;
      color: white;
 }
-  
-.row{
+.row1{
     display: flex;
     justify-content: space-between;
     line-height: 2;
