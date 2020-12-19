@@ -32,13 +32,20 @@
 
 /* About web section*/
 .inner-card{
-    width: 600px; 
+    width: 100%; 
     text-align: justify;
      line-height: 2;
     padding: 1.1em;
+    height: auto;
+    max-width: 600px;
 }
 .inner-image{
     margin-top: 3%;
+}
+.inner-image>img{
+    width: 100%;
+    max-width: 650px;
+    height: auto;
 }
 #aboutweb,#pcservices,.services{
     display: flex;
@@ -90,4 +97,38 @@
     display: flex;
     justify-content: space-between;
     line-height: 2;
+}
+@media (max-width:700px){
+    h2{
+        font-size: 2em;
+    }
+    .header-elements>h6,.content>p{
+        font-size: 1em;
+    }
+  .header-elements>p,.middle{
+      font-size: 0.7em !important;
+  }
+  .tabs .tab a{
+      font-size: 0.6em;
+      padding: 0 0.2em;
+  }
+  h3{
+    font-size:large; 
+    text-align: center;
+  }
+  .inner-image{
+      margin-top: 10%;
+  }
+  .inner-card{
+      font-size: 0.5em;
+      line-height: 1.2em;
+  }
+}
+@media (max-width:500px){
+    .inner-image{
+        margin-top: 25%;
+    }
+}
+@media(max-width:380px){
+
 }
