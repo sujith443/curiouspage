@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
@@ -143,4 +144,162 @@
     .inner-image2{
         display: none;
     }
+=======
+*{
+    padding: 0;
+    margin: 0;
+}
+/*main content*/
+#content{
+    color: whitesmoke;  
+    text-align: center;
+    height: 43em;
+    padding-top: 3em;
+}
+/*tabs present in main content*/
+#butn{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+#butn>li{
+    margin: 0 2em;
+    color: black;
+    background-color: white;
+    padding: 1.2em;
+    border-radius: 5%;
+    width: 15rem;
+}
+/*buttons present in main content*/
+.waves-effect{
+    margin-top: 5%;
+    font-size: 0.7em;
+}
+
+/* About web section*/
+.inner-card{
+    width: 100%; 
+    text-align: justify;
+     line-height: 2;
+    padding: 1.1em;
+    height: auto;
+    max-width: 600px;
+}
+.inner-image{
+    margin-top: 3%;
+}
+.inner-image>img{
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+}
+#aboutweb,#pcservices,.services{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.5em;
+}
+
+#butn2,#last-card,#pricemodal,.eveservice{
+    display: flex;
+    justify-content: center;
+}
+
+#butn2>li,#last-card>li,.eveservice>li{
+    margin: 1.4em 0em;
+    color: black;
+    background-color: white;
+    padding: 1.2em;
+    border-radius: 5%;
+    width: 15rem;
+    text-align: center;
+}
+#pricemodal>div,#pricemodal>img{
+    margin: 1em 5em;
+}
+
+.tabs .tab a:focus.active {
+    color:white;
+    /*Custom Text Color While Active*/
+    background-color:#1565c0 ;
+    /*Custom Background Color While Active*/
+  }
+  .tabs .tab a{
+    color:#000;
+    font-size: 1.3em;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color:#eee;
+    color:#000;
+} /*Text color on hover*/
+.tabs .indicator {
+    background-color:white;
+} /*Color of underline*/
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color:#1565c0 ;
+     color: white;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+}
+@media (max-width:700px){
+    h2{
+        font-size: 2em;
+    }
+    .header-elements>h6,.content>p{
+        font-size: 1em;
+    }
+  .header-elements>p,.middle{
+      font-size: 0.7em !important;
+  }
+  .tabs .tab a{
+      font-size: 0.6em;
+      padding: 0 0.2em;
+  }
+  h3{
+    font-size:large; 
+    text-align: center;
+  }
+  .inner-image{
+      margin-top: 10%;
+  }
+  .inner-card{
+      font-size: 0.5em;
+      line-height: 1.2em;
+  }
+  h5{
+      font-size: 1em;
+  }
+  .responsive-table{
+    font-size: 0.5em;
+  }
+  .inner-image2{
+    display: none;
+}
+td{
+    font-size: 0.7em;
+}
+.servicep{
+    font-size: 0.5em;
+}
+.servicep2{
+    float: left;
+}
+}
+@media (max-width:500px){
+    .inner-image{
+        margin-top: 25%;
+    }
+    #butn2>li,#last-card>li{
+        margin: 0.6em 0;
+        font-size: 0.5em;
+        width: 8rem;
+    }
+    .inner-image2{
+        display: none;
+    }
+>>>>>>> 7283d46ee2732a819a2512276fa30db0906b0ee1
 }
