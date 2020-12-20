@@ -129,18 +129,7 @@
   .responsive-table{
     font-size: 0.5em;
   }
-  .inner-image2{
-    display: none;
-}
-td{
-    font-size: 0.7em;
-}
-.servicep{
-    font-size: 0.5em;
-}
-.servicep2{
-    float: left;
-}
+
 }
 @media (max-width:500px){
     .inner-image{
