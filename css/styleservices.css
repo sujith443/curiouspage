@@ -130,6 +130,7 @@
     }
     #butn2>li,#last-card>li{
         margin: 0.6em 0;
-        font-size: 0.7em;
+        font-size: 0.5em;
+        width: 8rem;
     }
 }
