@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#section1,#vision{
+    text-align: center;
+}
+#main{
+    font-size: 1.2em;
+    padding: 3% 0;
+    display: inline-block;
+}
+#main>h1{
+    font-size: 8rem;
+    letter-spacing: 0.6rem;
+}
+#main>img{
+    object-fit: cover;
+    height: 165px;
+    margin-bottom: -3%;
+    box-shadow: brown;
+}
+#section2{
+    text-align: center;
+}
+.abcards{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+.abcards>img{
+    object-fit: fill;
+}
+.skills>h1{
+    text-decoration: underline;
+}
+#vision{
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+#vision>div>h1{
+    color: white;
+}
+#vis{
+    margin: 2%;
+}
+.footer{
+    padding: 5%;
+}
