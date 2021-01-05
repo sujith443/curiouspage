@@ -1,13 +1,61 @@
-nav-fixed{
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
 }
-.first:hover{
-    background: yellow;
+header{
+    background-image: url(curioubg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vmax;
 }
-.second:hover{
-    background: tomato;
+h1,.head>h2{
+    margin: 0;
 }
-#front{
-    background:url("texture.jpg");
-    padding: 10%;
+#section1{
+    color: white;
+    padding-top: 8%;
+    font-size: 2rem;
+}
+#section2{
+    height: 20vmax;
+}
+
+
+.black{
+    color:white;
+    padding: 5% 0;
+}
+.webdesign,.laptop,.logo,.webpages,.marketing{
+    width:30%;
+    margin: 1%;
+}
+.services,.services2,.body{
+    display: flex;
+    justify-content: center;
+}
+
+.head,.black,#section2,#section1,.body{
+    text-align: center;
+}
+.head{
+    background-color: brown;
+    padding: 3% 0;
+    color: white;
+}
+.edu>img,.gaming>img{
+    border-radius: 100%;
+}
+.edu,.gaming{
+    margin: 2%;
+}
+.edu>p,.gaming>p{
+   width: 30em;
+   text-align: justify;
+   line-height: 2;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
 }

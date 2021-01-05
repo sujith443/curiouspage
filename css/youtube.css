@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    color: black !important;
+    font-size: 1.2em;
+}
+#header{
+    height: 36vmax;
+    display: flex;
+    justify-content: space-around;
+}
+#header>h1{
+    padding-top: 10%;
+    margin-left: 10%;
+    color: white;
+    font-size: 4.6rem;
+    line-height: 1.5;
+}
+.aboutube{
+    padding: 2%;
+}
+.aboutube>h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.4em;
+}
+.categories{
+    padding: 2%;
+}
+.categorry1>p{
+    width: 19em;
+    text-align: justify;
+    margin-left: 30%;
+}
+.series>p{
+    text-align: justify;
+    width: 20em;
+    margin-left: 18%;
+}
+.centering{
+    text-align: center;
+    margin: 2em auto;
+}
+.series>h2{
+    margin-bottom: 5%;
+}

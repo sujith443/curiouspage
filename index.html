@@ -1,52 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" href="photos/circle-cropped.png">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Materialized css</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="photos/circle-cropped.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Materialized css</title>
 </head>
+
 <body>
   <header>
-  <nav class="black">
-    <div class="nav-fixed">
-      <ul class="brand-logo center">
-     <li> <a href="#" style="font-size: 2.3rem;">Curious!</a></li> 
-      </ul>
-      <ul class="left hide-on-med-and-down">
-        <li class="first"><a href="webdevelopment.html">Web development</a></li>
-        <li class="first"><a href="youtube.html">Youtube</a></li>
-        <li class="first"><a href="iotproj.html">IOT</a></li>
-        <li class="first"><a href="curiousservices.html">Services</a></li>
-      </ul>
-      <ul class="right">
-        <li class="second"><a href="about.html">About</a></li>
-        <li class="second"><a href="futureideas.html">Contact</a></li>
-      </ul>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="youtube.html">Youtube</a></li>
-        <li><a href="curiousservices.html">Services</a></li>
-        <li><a href="iotproj.html">IOT</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="futureideas.html">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <section>
-    <div id="front">
-      <h1>
-        Curious!
-      </h1>
+    <nav class="transparent">
+      <div class="nav-fixed">
+        <ul class="brand-logo center">
+        </ul>
+        <ul class="left hide-on-med-and-down">
+          <li class="first"><a href="curiousservices.html">Curious Services</a></li>
+          <li class="first"><a href="youtube.html">Youtube</a></li>
+          <li class="first"><a href="iotproj.html">IOT</a></li>
+        </ul>
+        <ul class="right">
+          <li class="second"><a href="about.html">About</a></li>
+          <li class="second"><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="youtube.html">Youtube</a></li>
+          <li><a href="curiousservices.html">Curious Services</a></li>
+          <li><a href="iotproj.html">IOT</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="futureideas.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="section1">
+      <div>
+        <h1 style="font-size: 15rem;">
+          Curious!
+        </h1>
+        <p>
+          Make the world better
+        </p>
+      </div>
+    </section>
+  </header>
+  <section id="section2">
+    <div>
+      <h4>
+        What do we Offer?
+      </h4>
+      <h2>
+        "We promise Quality <br>
+        in every thing we provide you"
+      </h2>
     </div>
   </section>
-</header>
+  <hr>
+  <section id="section3">
+    <h1 class="grey  darken-4 black">
+      Services we provide
+    </h1>
+    <div class="services">
+      <div class="webdesign">
 
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="css/web.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Designing</span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <div class="laptop">
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="css/unnamed.jpg" height="290">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">PC and Laptop care</span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <div class="webpages">
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator logod" src="css/websites-programming.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Web Pages & programming</span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services2">
+      <div class="logo">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="css/LOGODESIGNERS.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Logo Designs</span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <div class="marketing">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="css/web.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Online Marketing</span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section id="youtube">
+    <div class="channel">
+      <div class="head blue-grey darken-3">
+      <h2 style="font-size: 4em;">
+        Youthful Youtube
+      </h2>
+      <p>
+        we provide knowledge here
+      </p>
+    </div>
+    <div class="body">
+      <div class="edu">
+        <img src="css/CURIOUS (2).png" class="z-depth-4" alt="Curious" width="150">
+        <h3>
+          Curious Education
+        </h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, temporibus consequuntur et odit, sed quod aliquid deleniti voluptas amet magni, vero inventore. Debitis quasi a enim perferendis cupiditate officiis dolorum.
+        </p>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+      <div class="gaming">
+      <img src="css/1.png" class="z-depth-4"  alt="curious gamingworld" width="150">
+      <h3>
+        Curious GamingWorld
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quod odit optio temporibus laborum praesentium nesciunt voluptate quas veritatis ad earum iure, maiores repellendus esse cupiditate, voluptas itaque saepe vitae!
+      </p>
+      <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <i class="material-icons right">send</i>
+      </button>
+    </div>
+    </div>
+    </div>
+  </section>
+
+    <!---Footer section-->
+
+    <footer class="page-footer black">
+      <div class="container">
+          <div class="row1">
+              <div>
+                  <p style="font-size: 1.4em;">
+                      So what is Curious?
+                  </p>
+                  <p>
+                      Curious is a organization looking forward to conquer the world <br>
+                      by creativity and innovation.
+                  </p>
+
+              </div>
+              <div style="margin-left: 25%;">
+                  <ul>
+                      <li style="font-size: 1.3em;text-decoration: underline;">Page Links</li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Future Ideas</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Web development</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Youtube</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div id="socialmedia" style="text-align: center;">
+          <img src="css/instagram.png" class="responsive-img" style="width: 2em;height: 2em;" alt="insta">
+          <img src="css/youtube.png" alt="youtube" class="responsive-img" style="width: 2em;height: 2em;">
+          <img src="css/gmail.png" alt="gmail" class="responsive-img" style="width: 2em;height: 2em;">
+          <img src="css/facebook.png" alt="youtube" class="responsive-img" style="width: 2em;height: 2em">
+      </div>
+      <div class="footer-copyright">
+          <div class="container">
+              © 2021 Copyright
+              <a class="grey-text text-lighten-4 right" href="">#CuriousTeam</a>
+          </div>
+      </div>
+  </footer>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="js/script.js"></script>
+
 </html>
